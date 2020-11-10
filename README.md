@@ -64,24 +64,29 @@
 ## 3. Models de desenvolupament de Software
 
 - **Cascada**
+
 És el model més antic.   
 Les fases és realitzen una darrera de l'altre, i fins que no s'acabi una fase, no es pasa a la següent.
 
 - **V**
+
 Aquest és un model jeràrquic amb diversos nivells.    
 El nivell d'adalt de tot, es fan coses més abstractes com el diseny. I en el nivell d'abaix coses més detallades com la codificació.
 
 - **Prototips I**
+
 Els requisits no estan especificats clarament:  
 -- per no existir algu prèvi  
 -- per falta d'informació del client.  
 
 - **Prototips II**
+
 Proccés:  
 Es crea un prototip durant la fase d'anàlisis i es proba per el usuari o client per acabar de refinar els requisits del programa.  
 Es repeteix aquests pasos fins que sigui necessari.
 
 - **Prototips III**
+
 Tipos de prototipos:  
 -- Prototipos rápidos  
 El prototip pot estar desenvolupat en un altre llengüatge.  
@@ -91,6 +96,8 @@ El prototip està disenyat en el mateix llengüatge.
 El prototip s'utilitza per com a base per desenvolupar el projecte.  
 
 - **Espiral I**  
+
 Correspon a les fases dels models clàsics com anàlisis, diseny, codificació...  
 - **Espiral II**  
+
 Gran importancia a la reutilització del codi.  
