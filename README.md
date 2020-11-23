@@ -47,14 +47,14 @@
 |**Evolutiu:** s'afegeix funcionalitats noves|
 |**Adaptatiu:** s'adapta a nous entorns|
 
-## 2.2 Resultat de cada fase I
+### 2.2 Resultat de cada fase I
 - **Ingenieria de sistemes**: especificació del sistema.
 -  **Anàlisis**: especificació de requisits del Software.
 -  **Diseny arquitectònic**: document d'arquitectura del Software.
 -  **Diseny detallat**: especifició de mòduls i funcions.
 -  **Codificació**: codi font.
 
-## 2.3 Resultat de cada fase II
+### 2.3 Resultat de cada fase II
 - **Proves d'unitats**: mòduls utilitzables.
 -  **Proves d'integració**: sistema utilitzable.
 -  **Proves del sistema**: sistema acceptat.
