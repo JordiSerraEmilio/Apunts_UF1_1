@@ -7,32 +7,32 @@
 
 ### 1.2 Relació "Hardware-Software"
 - **Disc dur:** emmagatzema de forma permanent els arxius de dades i els d'execució.
-- **RAM:** emmagatzema de forma temporal el códi binari dels arxius de dades i d'execució necessaris.
-- **CPU:** llegeix i executa instruccions emmagatzemafes en RAM, així com les dades necessaries.
+- **RAM:** emmagatzema de forma temporal el codi binari dels arxius de dades i d'execució necessaris.
+- **CPU:** llegeix i executa instruccions emmagatzemades en RAM, així com les dades necessàries.
 - **Perifèrics d'entrada/sortida:** recull noves dades des de l'entrada, els mostren resultats, es guarden al disc...
 
 ### 1.3 Codi font, objecte i executable
-- **Codi font:** arxiu de text llegible escrit en un llengüatge de programació.
+- **Codi font:** arxiu de text llegible escrit en un llenguatge de programació.
 - **Codi objecte:** fitxer binari **NO** executable.
 - **Codi executable:** fitxer binari **EXECUTABLE**.
 
 ## 2. Cicle de la vida del Software
 
-**Ingenieria de Software** →disciplina que estudia els principis i metadologies per al desenvolupament i manteniment dels sistemes de software.
+**Ingenieria de Software** →disciplina que estudia els principis i metodologies per al desenvolupament i manteniment dels sistemes de software.
 
 ### 2.1 Desenvolupament de Software
 ### Fases principals
-|Analisis|
+|Anàlisis|
 |--------|
-|Es determina i defineix clarament les necessitats del client i es especifica els requisits que ha de complir el software a desenvolupar.|
+|Es determina i defineix clarament les necessitats del client i s'especifica els requisits que ha de complir el software a desenvolupar.|
 
-|Diseny|
+|Disseny|
 |--------|
 |Es descompon i organitza el sistema en elements components que poden ser desenvolupats per separat.|
 
 |Codificació|
 |--------|
-|S'escriu el codi font de cada component i es poden utilitzar diversos llengüatges informàtics.|
+|S'escriu el codi font de cada component i es poden utilitzar diversos llenguatges informàtics.|
 
 |Proves|
 |--------|
@@ -40,7 +40,7 @@
 
 |Manteniment|
 |--------|
-|Durant la explotació del sistema Software és necessari realitzar canvis ocasionals.|
+|Durant l'explotació del sistema Software és necessari realitzar canvis ocasionals.|
 |**Tipus de manteniments:**|
 |**Correctiu:** es corregeixen els defectes|
 |**Perfectiu:** es milloren les funcionalitats|
@@ -49,62 +49,62 @@
 
 ### 2.2 Resultat de cada fase I
 - **Ingenieria de sistemes**: especificació del sistema.
--  **Anàlisis**: especificació de requisits del Software.
--  **Diseny arquitectònic**: document d'arquitectura del Software.
--  **Diseny detallat**: especifició de mòduls i funcions.
--  **Codificació**: codi font.
+- **Anàlisis**: especificació de requisits del Software.
+- **Disseny arquitectònic**: document d'arquitectura del Software.
+- **Disseny detallat**: especifico de mòduls i funcions.
+- **Codificació**: codi font.
 
 ### 2.3 Resultat de cada fase II
 - **Proves d'unitats**: mòduls utilitzables.
--  **Proves d'integració**: sistema utilitzable.
--  **Proves del sistema**: sistema acceptat.
--  **Documentació**: documentació tècnica i d'usuari.
--  **Manteniment**: informes d'errors i control de canvis.
+- **Proves d'integració**: sistema utilitzable.
+- **Proves del sistema**: sistema acceptat.
+- **Documentació**: documentació tècnica i d'usuari.
+- **Manteniment**: informes d'errors i control de canvis.
 
 ## 3. Models de desenvolupament de Software
 
 - **Cascada**
 
-És el model més antic.   
+És el model més antic.
 Les fases és realitzen una darrera de l'altre, i fins que no s'acabi una fase, no es pasa a la següent.
 
 - **V**
 
-Aquest és un model jeràrquic amb diversos nivells.    
-El nivell d'adalt de tot, es fan coses més abstractes com el diseny. I en el nivell d'abaix coses més detallades com la codificació.
+Aquest és un model jeràrquic amb diversos nivells.
+El nivell d'a dalt de tot, es fan coses més abstractes com el disseny. I en el nivell d'baix coses més detallades com la codificació.
 
 - **Prototips I**
 
-Els requisits no estan especificats clarament:  
--- per no existir algu prèvi  
--- per falta d'informació del client.  
+Els requisits no estan especificats clarament:
+-- per no existir algú previ
+-- per falta d'informació del client.
 
 - **Prototips II**
 
-Proccés:  
-Es crea un prototip durant la fase d'anàlisis i es proba per el usuari o client per acabar de refinar els requisits del programa.  
-Es repeteix aquests pasos fins que sigui necessari.
+Procés:
+Es crea un prototip durant la fase d'anàlisis i es prova per l'usuari o client per acabar de refinar els requisits del programa.
+Es repeteix aquests passos fins que sigui necessari.
 
 - **Prototips III**
 
-Tipos de prototipos:  
--- Prototipos rápidos  
-El prototip pot estar desenvolupat en un altre llengüatge.  
-Al final el prototip es llença.  
--- Prototips evolutius  
-El prototip està disenyat en el mateix llengüatge.  
-El prototip s'utilitza per com a base per desenvolupar el projecte.  
+Tipus de prototipus:
+-- Prototipus ràpides
+El prototip pot estar desenvolupat en un altre llenguatge.
+Al final el prototip es llença.
+-- Prototips evolutius
+El prototip està d'assenyat en el mateix llenguatge.
+El prototip s'utilitza per com a base per desenvolupar el projecte.
 
-- **Espiral I**  
+- **Espiral I**
 
-Correspon a les fases dels models clàsics com anàlisis, diseny, codificació...  
-- **Espiral II**  
+Correspon a les fases dels models clàssics com anàlisis, disseny, codificació...
+- **Espiral II**
 
-Gran importancia a la reutilització del codi.  
+Gran importància a la reutilització del codi.
 
 ## 4. Llenguatges de Programació
 
-Primer de tot, tenim 2 opcions a l'hora d'obtindre codi binari executable.
+Primer de tot, tenim 2 opcions a l'hora d'obtenir codi binari executable.
 - Compilats
 - Interpretats
 
@@ -112,28 +112,28 @@ Primer de tot, tenim 2 opcions a l'hora d'obtindre codi binari executable.
 
 Té dues fases:
 -- 1. Anàlisis lèxic
--- 2. Anlisis sintàctic
+-- 2. Anàlisis sintàctic
 Si no existeixen errors, es genera el codi objecte.
-Un codi font escrit correctament, no significa que fagi el que nosaltres volem.
+Un codi font escrit correctament, no significa que faci el que nosaltres volem.
 I no es realitza un anàlisis semàntic.
 
-### 4.2 Llenguatges compliats i avantages
+### 4.2 Llenguatges compilats i avantatges
 
 Exemples: **C**, **C++**
-Aventatge: Tenen una execucó molt eficient.
+Avantatge: Tenen una execució molt eficient.
 
-### 4.3 Llenguatges interpretats i avantages
+### 4.3 Llenguatges interpretats i avantatges
 
 Exemples: **PHP**, **Java**
-Aventatge: El codi font s'interpreta directament per tant, té una execució més ràpida.
+Avantatge: El codi font s'interpreta directament per tant, té una execució més ràpida.
 
 ### 4.4 Tipus I
 
---**Declaratius:** indiquen o busquen el resultat sense importar els pasos a seguir.
+--**Declaratius:** indiquen o busquen el resultat sense importar els passos a seguir.
 Lògics - Prolog
 Funcionals - Lisp
 Algebraics - SQL
---**Imperatius:** els importa els pasos a seguir per obtindre el resultat.
+--**Imperatius:** els importa els passos a seguir per obtindre el resultat.
 Estructurats - C
 Orientat a objectes - Java
 Multiparadigma - C++, Javascript
