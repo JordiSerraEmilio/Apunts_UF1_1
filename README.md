@@ -102,8 +102,48 @@ Correspon a les fases dels models clàsics com anàlisis, diseny, codificació..
 
 Gran importancia a la reutilització del codi.  
 
-## 3. Llenguatges de Programació
+## 4. Llenguatges de Programació
 
 Primer de tot, tenim 2 opcions a l'hora d'obtindre codi binari executable.
 - Compilats
 - Interpretats
+
+### 4.1 Procés de complicació/interpretació
+
+Té dues fases:
+-- 1. Anàlisis lèxic
+-- 2. Anlisis sintàctic
+Si no existeixen errors, es genera el codi objecte.
+Un codi font escrit correctament, no significa que fagi el que nosaltres volem.
+I no es realitza un anàlisis semàntic.
+
+### 4.2 Llenguatges compliats i avantages
+
+Exemples: **C**, **C++**
+Aventatge: Tenen una execucó molt eficient.
+
+### 4.3 Llenguatges interpretats i avantages
+
+Exemples: **PHP**, **Java**
+Aventatge: El codi font s'interpreta directament per tant, té una execució més ràpida.
+
+### 4.4 Tipus I
+
+--**Declaratius:** indiquen o busquen el resultat sense importar els pasos a seguir.
+Lògics - Prolog
+Funcionals - Lisp
+Algebraics - SQL
+--**Imperatius:** els importa els pasos a seguir per obtindre el resultat.
+Estructurats - C
+Orientat a objectes - Java
+Multiparadigma - C++, Javascript
+
+### 4.5 Tipus IV
+Baix nivell: **ensamblador**
+Alt nivell: **C++, Java**
+
+### 4.6 Evolució
+-Codi binari
+-Ensamblador
+-Llenguatges estructurats
+-Llenguatges orientats a objectes
