@@ -101,3 +101,9 @@ Correspon a les fases dels models clàsics com anàlisis, diseny, codificació..
 - **Espiral II**  
 
 Gran importancia a la reutilització del codi.  
+
+## 3. Llenguatges de Programació
+
+Primer de tot, tenim 2 opcions a l'hora d'obtindre codi binari executable.
+- Compilats
+- Interpretats
