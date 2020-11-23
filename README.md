@@ -70,29 +70,29 @@ Les fases és realitzen una darrera de l'altre, i fins que no s'acabi una fase, 
 
 - **V**
 
-Aquest és un model jeràrquic amb diversos nivells.
+Aquest és un model jeràrquic amb diversos nivells.  
 El nivell d'a dalt de tot, es fan coses més abstractes com el disseny. I en el nivell d'baix coses més detallades com la codificació.
 
 - **Prototips I**
 
-Els requisits no estan especificats clarament:
--- per no existir algú previ
+Els requisits no estan especificats clarament:  
+-- per no existir algú previ  
 -- per falta d'informació del client.
 
 - **Prototips II**
 
-Procés:
-Es crea un prototip durant la fase d'anàlisis i es prova per l'usuari o client per acabar de refinar els requisits del programa.
+Procés:  
+Es crea un prototip durant la fase d'anàlisis i es prova per l'usuari o client per acabar de refinar els requisits del programa.  
 Es repeteix aquests passos fins que sigui necessari.
 
 - **Prototips III**
 
-Tipus de prototipus:
--- Prototipus ràpides
-El prototip pot estar desenvolupat en un altre llenguatge.
-Al final el prototip es llença.
--- Prototips evolutius
-El prototip està d'assenyat en el mateix llenguatge.
+Tipus de prototipus:  
+-- Prototipus ràpides  
+El prototip pot estar desenvolupat en un altre llenguatge.  
+Al final el prototip es llença.  
+-- Prototips evolutius  
+El prototip està d'assenyat en el mateix llenguatge.  
 El prototip s'utilitza per com a base per desenvolupar el projecte.
 
 - **Espiral I**
@@ -104,46 +104,46 @@ Gran importància a la reutilització del codi.
 
 ## 4. Llenguatges de Programació
 
-Primer de tot, tenim 2 opcions a l'hora d'obtenir codi binari executable.
-- Compilats
+Primer de tot, tenim 2 opcions a l'hora d'obtenir codi binari executable.  
+- Compilats  
 - Interpretats
 
 ### 4.1 Procés de complicació/interpretació
 
-Té dues fases:
--- 1. Anàlisis lèxic
--- 2. Anàlisis sintàctic
-Si no existeixen errors, es genera el codi objecte.
-Un codi font escrit correctament, no significa que faci el que nosaltres volem.
+Té dues fases:  
+-- 1. Anàlisis lèxic  
+-- 2. Anàlisis sintàctic  
+Si no existeixen errors, es genera el codi objecte.  
+Un codi font escrit correctament, no significa que faci el que nosaltres volem.  
 I no es realitza un anàlisis semàntic.
 
 ### 4.2 Llenguatges compilats i avantatges
 
-Exemples: **C**, **C++**
+Exemples: **C**, **C++**  
 Avantatge: Tenen una execució molt eficient.
 
 ### 4.3 Llenguatges interpretats i avantatges
 
-Exemples: **PHP**, **Java**
+Exemples: **PHP**, **Java**  
 Avantatge: El codi font s'interpreta directament per tant, té una execució més ràpida.
 
 ### 4.4 Tipus I
 
---**Declaratius:** indiquen o busquen el resultat sense importar els passos a seguir.
-Lògics - Prolog
-Funcionals - Lisp
-Algebraics - SQL
---**Imperatius:** els importa els passos a seguir per obtindre el resultat.
-Estructurats - C
-Orientat a objectes - Java
+--**Declaratius:** indiquen o busquen el resultat sense importar els passos a seguir.  
+Lògics - Prolog  
+Funcionals - Lisp  
+Algebraics - SQL  
+--**Imperatius:** els importa els passos a seguir per obtindre el resultat.  
+Estructurats - C  
+Orientat a objectes - Java  
 Multiparadigma - C++, Javascript
 
 ### 4.5 Tipus IV
-Baix nivell: **ensamblador**
+Baix nivell: **ensamblador**  
 Alt nivell: **C++, Java**
 
 ### 4.6 Evolució
--Codi binari
--Ensamblador
--Llenguatges estructurats
+-Codi binari  
+-Ensamblador  
+-Llenguatges estructurats  
 -Llenguatges orientats a objectes
